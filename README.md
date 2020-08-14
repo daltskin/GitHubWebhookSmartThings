@@ -21,6 +21,7 @@ This Azure Function requires two different SmartThings Scenes to differentiate, 
 
 In additional to the guidance provided in the [blog post](https://jamied.me/posts/2020/07/github-webhooks-with-azure-functions/) you'll need to set the following Environment variables eg:
 
+    "SmartThingsAccessToken" : "{your-smartthings-pat}"
     "SuccessSceneName": "Build Success",
     "FailureSceneName": "Build Failure"
 
